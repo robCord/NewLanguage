@@ -8,6 +8,7 @@ void LangMemory::SetRAMValue(int address, int value)
 	Ram[address] = value;
 }
 
+//sets address and receives
 int LangMemory::GetRAMValue(int address)
 {
 	return Ram[address];

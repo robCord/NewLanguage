@@ -35,11 +35,11 @@ void CommandShell::ProcessCommand(std::string commandToProcess)
 		std::cout << "\nCommand not available";
 	}
 	else
-	{
+	{//unknown input error handler
 		std::cout << "\nUnknown command!\n";
 	}
 }
-
+//display help function gives output from user input 'help'
 void CommandShell::DisplayHelp()
 {
 	std::cout << "\n\n\t*** Help Menu ***\n";
